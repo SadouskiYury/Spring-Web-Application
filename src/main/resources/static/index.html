@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>You first Spring application</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<h2>Welcome to Sadovsky's Spring Java Application!!!</h2>
+<p>Please register new User.</p>
+
+<form action="/add" method="POST">
+    <label for="firstName">First name:</label><br>
+    <input type="text" id="firstName" name="first"><br>
+    <label for="lastName">Last name:</label><br>
+    <input type="text" id="lastName" name="last"><br>
+    <input type="submit" value="Submit">
+</form>
+
+
+<form action="/list" method="GET">
+    <br><button>List Users</button>
+</form>
+
+<form action="/find" method="GET">
+    <label for="id">Find User By ID:</label><br>
+    <input type="number" id="id" name="id"><br>
+    <br><button>Find User</button>
+</form>
+
+</body>
+</html>
