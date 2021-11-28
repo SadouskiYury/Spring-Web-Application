@@ -1,1 +1,2 @@
-# Spring-Web-Application + JPS (H2DataBase)
+# Spring-Single-Page-Application + JPS (H2DataBase)
+(to practice deploy using docker)
